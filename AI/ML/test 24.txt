@@ -1,0 +1,61 @@
+
+1. Care dintre urmatoarele functii de activare are cel mai mic cost computational?
+A. Sigmoid
+B. ELU
+C. Leaky ReLU
+D. Tanh
+
+2. Fiind data urmatoarea multime de antrenare cu etichetele corespunzatoare: X_train = ((1,0),(1,1),(1,2),(2,1),(0,1),(-1,1),(-1,-1),(-1,2)) Y_train = (1,2,5,3,6,4,3,4), cati clasificatori sunt antrenati pentru un SVM folosind abordarea ONE vs ONE?
+A. 6
+B. 2
+C. 4
+D. 15
+
+3. Care este volumul de output al unui strat convolutional de input 15x15x3, avand 8 filtre de dimensiune 5, stride 2, padding 1?
+A. 7x7x8
+B. 8x8x8
+C. 2x2x24
+D. 6x6x8
+
+4. Cate ponderi (inclusiv bias) are o retea neuronala cu configuratia 2-5-2-1 (primul numar este dimensiunea datelor de intrare, urmatoarele numere reprezinta numarul de neuroni de pe fiecare strat)?
+A. 30
+B. 27
+C. 32
+D. 25
+
+5. Fiind data urmatoarea multime de antrenare cu etichetele corespunzatoare: X_train = ((1,0),(1,1),(1,2),(2,1),(0,1),(-1,1),(-1,-1),(-1,2)) Y_train = (1,2,1,3,2,4,3,4), cati clasificatori sunt antrenati pentru un SVM folosind abordarea ONE vs ALL?
+A. 1
+B. 2
+C. 4
+D. 6
+
+6. Cum arata aceste datele in urma scalarii min-max [[-10, 50], [30, 40], [20, 100]] (3 exemple, 2 caracteristici)?
+A. [[0.0, 0.17], [1.0, 0.0], [0.75, 1.0]]
+B. [[0.1, 0.4], [0.2, 0.5], [0.3, 0.6]]
+C. [[0.0, 0.0], [0.5, 0.5], [1.0, 1.0]]
+D. [[0.0, 0.4], [0.25, 0.5], [0.5, 0.6]]
+
+7. Care este scopul ratei de invatare in contextul retelelor neurale?
+A. Este o foarte necesara initializare pentru ponderi
+B. Favorizeaza depasirea exagerata a punctului de minim si reguleaza viteza de convergenta
+C. Specifica rata de selectie pentru batch-uri, astfel ajutand procesul de invatare
+D. Ajuta procesul de convergenta prin prevenirea pasilor mult prea mari care pot depasi minimul global
+
+8. Care este rezultatul standardizarii urmatoarelor valori: [4,0,3,-1]?
+A. [1.07, 0, 0.53, -1.60]
+B. [1,  0.2,  0.8, 0]
+C. [1.21, -0.72, 0.72, -1.21]
+D. [1,  0.6,  0,8, 0]
+
+9. Dat fiind un set cu n eșantioane, care va fi complexitatea de testare a metodei celor mai apropiați vecini antrenat pe acest set?
+A. O(1)
+B. O(logn)
+C. O(n)
+D. O(n * logn)
+
+10. Cand este mai eficient sa folosim reprezentarea primala a datelor?
+A. Cand avem o problema de clasificare cu foarte multe clase (mai mult de doua)
+B. Cand avem o problema de clasificare binara (cu doua clase)
+C. Cand numarul de trasaturi este mai mic decat numarul de exemple
+D. Cand numarul de trasaturi este mai mare decat numarul de exemple
+

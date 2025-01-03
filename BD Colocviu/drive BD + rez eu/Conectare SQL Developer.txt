@@ -1,0 +1,7 @@
+Conectare SQL Developer server extern/ local(sala201):
+Connection Name: 	grupa***, unde *** poate fi (31,32,33,34,41,42,43 sau 44)
+Username:			grupa***, unde *** poate fi (31,32,33,34,41,42,43 sau 44)
+Password:			bazededate/ oracle
+Hostname:			193.226.51.37/ 10.212.1.253
+Port:				1521
+SID:				o11g

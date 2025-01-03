@@ -1,0 +1,9 @@
+Exercitii 5p
+1. Unificare / Deductie Naturala
+2. Skolemizare/ Prenex
+3. Herbrand, Teorema punct fix, SLD
+
+Prolog 4p
+2 programe
+
+1p oficiu
